@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600&display=swap');
+
+body {
+  background-color: #0e0e10;
+  color: #e5e5e5;
+  font-family: "Vazirmatn", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a1a1d;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .4);
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.product-image img {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+}
+
+.product-info {
+  max-width: 400px;
+  margin: 20px;
+  text-align: right;
+}
+
+.product-info h2 {
+  color: #00e6ff;
+  margin-bottom: 10px;
+}
+
+.product-info p {
+  font-size: 15px;
+  color: #ccc;
+  line-height: 1.8;
+}
+
+.price {
+  display: block;
+  margin: 20px 0;
+  font-size: 20px;
+  color: #00ffae;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: #00e6ff;
+  border: none;
+  color: #111;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #00b3cc;
+  transform: scale(1.05);
+}
+
+#backHome {
+  background-color: #444;
+  color: #fff;
+}
+
+#backHome:hover {
+  background-color: #666;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1a1a1d;
+  color: #777;
+  font-size: 13px;
+  margin-top: 40px;
+}
